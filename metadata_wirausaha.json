@@ -1,0 +1,27 @@
+{
+  "model_name": "Tracer Study - Prediksi Kesesuaian Usaha",
+  "version": "1.0.0",
+  "feature_columns": [
+    "jurusan",
+    "nilai_ujikom",
+    "nilai_kejuruan",
+    "tempat_pkl_relevan",
+    "ekskul_aktif",
+    "usaha_jenis",
+    "tingkat_relevansi_usaha",
+    "usaha_lama_berjalan",
+    "pendapatan"
+  ],
+  "target_column": "kesesuaian_usaha",
+  "classes": [
+    "Kurang Sesuai",
+    "Sangat Sesuai",
+    "Sesuai",
+    "Tidak Sesuai"
+  ],
+  "test_accuracy": 0.8667,
+  "cv_accuracy_mean": 0.852,
+  "cv_accuracy_std": 0.0156,
+  "dataset_rows": 1500,
+  "note": "Dataset sintetis berbasis rubrik. Validasi ulang dengan data alumni yang diberi label pakar sebelum klaim akademik final."
+}
